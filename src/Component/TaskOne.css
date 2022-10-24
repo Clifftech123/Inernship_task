@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Nunito:ital,wght@1,200&family=Overpass:wght@100&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,200;1,500&display=swap');
+
+
+
+body {
+    margin: 0;
+	background-color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+/* THE CONTAINER */
+.Container {
+    margin-top: 4rem;
+}
+
+/* AMIN CONTENT */
+.Main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 32px;
+	gap: 32px;
+	width: 1216px;
+	height: 774px;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin-top: 2rem;
+}
+
+/* TWITTER NAME */
+.twitter {
+	width: 1152px;
+	height: 30px;
+    font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #101828;
+}
+
+
+/* SLACK */
+.slack{
+    visibility: hidden;
+}
+
+/* MEDIA QUARRY FOR MOBILE */
