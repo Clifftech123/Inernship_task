@@ -15,7 +15,7 @@ body {
     margin-top: 4rem;
 }
 
-/* ============profile section=======*/
+/* ============  PROFILE SECTION =======*/
 .Main {
 	display: flex;
 	flex-direction: column;
@@ -37,7 +37,26 @@ body {
 
 /* PROFILE IMAGE */
 .profile_image{
-	width: 200px;
+	width: 150px;
+}
+
+
+/* SHARE BUTTON  */
+button .shareButton{
+position: absolute;
+width: 50px;
+height: 50x;
+right: 300px;
+top: 30px;
+left: 90%;
+background: #FFFFFF;
+border: 1px dashed #D0D5DD;
+border-radius: 25px;
+
+}
+
+.shareButton:hover{
+    cursor: pointer;
 }
 
 /* TWITTER NAME */
@@ -50,8 +69,9 @@ body {
 	line-height: 30px;
 	text-align: center;
 	color: #101828;
-	margin: 20px ;
+	margin-top: 30px;
 }
+
 /* SLACK */
 .slack{
     visibility: hidden;
@@ -65,13 +85,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
-gap: 24px;
-
 width: 1152px;
 height: 576px;
 }
 
-/* FIRST BUTTON */
+/* FIRST BUTTON  TWITTER LINKS*/
 .btn__zuri{
 display: flex;
 flex-direction: row;
@@ -84,7 +102,9 @@ background: #EAECF0;
 border: 1px solid #EAECF0;
 border-radius: 8px;
 }
-/* BUTTON TEXT */
+
+
+/* BUTTON TEXT   */
 .Twitter_Link{
 height: 28px;
  font-family: 'Poppins', sans-serif;
@@ -100,7 +120,7 @@ text-decoration: none;
 }
 
 
-/* SECOND BUTTON  */
+/* SECOND BUTTON BOOKS   */
 .books{
 display: flex;
 flex-direction: row;
@@ -132,7 +152,7 @@ text-decoration: none;
 }
 
 
-/* THIRD BUTTON  */
+/* THIRD BUTTON  PYTHON BOOKS  */
 .book__python{
 display: flex;
 flex-direction: row;
@@ -163,7 +183,7 @@ text-decoration: none;
 }
 
 
-/* FOURTH BUTTON */
+/* FOURTH BUTTON  PITCH */
 .pitch{
 display: flex;
 flex-direction: row;
@@ -195,7 +215,7 @@ text-decoration: none;
 }
 
 
-/* FIFTH BUTTON  */
+/* FIFTH BUTTON  BOOK DESIGN  */
 .book__design{
 display: flex;
 flex-direction: row;
@@ -213,7 +233,7 @@ border-radius: 8px;
 }
 
 .book__design_text{
-	 height: 28px;
+ height: 28px;
  font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -226,4 +246,95 @@ color: #101828;
 text-decoration: none;
 }
 
+/* HOVER EFFECT ALL THE BUTTON */
+
+button:hover {
+ background: #D0D5DD;
+}
+
+
+/*======== SOCIAL ICONS SECTION=======  */
+.Container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 32px;
+gap: 32px;
+width: 1216px;
+height: 24px;
+margin-top: 100px;
+}
+
+.content{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+width: 1152px;
+height: 24px;
+}
+
+.icons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 1172px;
+
+}
+
+
+/*============ FOOTER SECTION ============ */
+.footer{
+border-top: 1px solid rgb(240, 240, 240);
+border-width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px 0px;
+gap: 64px;
+width: 1440px;
+height: 160px;
+left: 0px;
+margin-top: 300px;
+}
+
+
+.content_Footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px 0px 0px;
+gap: 10rem;
+
+width: 1216px;
+height: 64px;
+}
+
+/* logo */
+.logo{
+width: 187.59px;
+height: 32px;
+}
+
+/* FOOTER TEXT */
+.FooterText{	
+width: 832.28px;
+height: 24px;
+ font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+
+}
+
 /* MEDIA QUARRY FOR MOBILE */
+
+ 
