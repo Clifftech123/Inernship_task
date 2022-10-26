@@ -42,7 +42,7 @@ body {
 
 
 /* SHARE BUTTON  */
-button .shareButton{
+.shareButton{
 position: absolute;
 width: 50px;
 height: 50x;
@@ -335,6 +335,114 @@ color: #667085;
 
 }
 
-/* MEDIA QUARRY FOR MOBILE */
+/* =========MEDIA QUARRY FOR MOBILE =========*/
+@media only screen and (max-width: 425px){
+	/* CONTAINER CONTAIN ALL CONTENT */
+.Container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 16px;
+gap: 32px;
+width: 375px;
+height: 700px;
+}
+/* MAIN CONTENT */
+.Main{
+display: grid;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
 
- 
+
+}
+/* PROFILE SECTION  */
+.profile{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
+
+.profile_image{
+	margin-left: 50px;
+}
+.twitter{
+	margin-left: 50px;
+}
+
+
+
+/* BUTTON SECTION */
+.btn__zuri {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 8px;
+
+margin-left: 5px;
+margin-right: 5px;
+
+
+/* Gray/200 */
+
+background: #EAECF0;
+/* Gray/200 */
+
+border: 1px solid #EAECF0;
+border-radius: 8px;
+
+}
+
+.links_section{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+width: 400px;
+margin: auto;
+height: 528px;
+}
+
+.MobileView{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+width: 343px;
+height: 68px;
+
+}
+
+.TextPhone{
+width: 72px;
+height: 20px;
+ font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #101828;
+}
+
+/* HIDDEN ICONS AND FOOTER ON  PHONE VIEW */
+ .IconsHidden{
+	display: none;
+
+}
+.footer{
+	display: none;
+}
+
+}

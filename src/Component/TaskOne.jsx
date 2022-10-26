@@ -33,8 +33,7 @@ const TaskOne =() => {
 							src={ProfileImage}
 							alt=""
 						/>
-						
-						
+
 						{/* SHARE BUTTON */}
 						<h1 className="twitter" id="Twitter">
 							Clifftech_Dev
@@ -43,20 +42,20 @@ const TaskOne =() => {
 							Opoku Isaiah Clifford
 						</h1>
 					</div>
-					<button type="button" title="share link ">
-						<img
-							className="shareButton"
-							id="shareButton"
-							src={shareButton}
-							alt="share button"
-						/>
-					</button>
-					
+
+					<img
+						className="shareButton"
+						id="shareButton"
+						src={shareButton}
+						alt="share button"
+					/>
+
 					{/* BUTTON SECTION LINK SECTION  */}
+					{/* FIRST BUTTON */}
 					<div className="links_section">
-						<button id="btn__zuri" className="btn__zuri">
+						<button id="btn__zuri" className="btn__zuri MobileView">
 							<a
-								className="Twitter_Link"
+								className="Twitter_Link TextPhone"
 								href={btn__zuri}
 								target={"_blank"}
 								rel="noreferrer"
@@ -64,9 +63,10 @@ const TaskOne =() => {
 								Twitter Link
 							</a>
 						</button>
-						<button id="books" className="books">
+						{/* SECOND BUTTON */}
+						<button id="books" className="books MobileView">
 							<a
-								className="books_text"
+								className="books_text TextPhone"
 								href={books}
 								target={"_blank"}
 								rel="noreferrer"
@@ -74,9 +74,13 @@ const TaskOne =() => {
 								Zuri Books
 							</a>
 						</button>
-						<button id="Opoku_Isaiah_Clifford" className="book__python">
+						{/* THIRD BUTTON */}
+						<button
+							id="Opoku_Isaiah_Clifford"
+							className="book__python MobileView"
+						>
 							<a
-								className="book__python_text"
+								className="book__python_text TextPhone"
 								href={book__python}
 								target={"_blank"}
 								rel="noreferrer"
@@ -84,10 +88,10 @@ const TaskOne =() => {
 								Python Books
 							</a>
 						</button>
-
-						<button id="pitch" className="pitch">
+						{/* FOURTH BUTTON */}
+						<button id="pitch" className="pitch MobileView">
 							<a
-								className="pitch_text"
+								className="pitch_text TextPhone"
 								href={pitch}
 								target={"_blank"}
 								rel="noreferrer"
@@ -95,10 +99,10 @@ const TaskOne =() => {
 								background checks on coders
 							</a>
 						</button>
-
-						<button id="book__design" className="book__design">
+						{/* FIRTH BUTTON  */}
+						<button id="book__design" className="book__design MobileView">
 							<a
-								className="book__design_text"
+								className="book__design_text TextPhone"
 								href={book__design}
 								target={"_blank"}
 								rel="noreferrer"
@@ -108,7 +112,7 @@ const TaskOne =() => {
 						</button>
 					</div>
 					{/* SOCIAL  ICONS  SECTION */}
-					<div className="Container ">
+					<div className="Container IconsHidden ">
 						<div className="content">
 							<div className="icons">
 								<img src={slack} alt="slack" />
