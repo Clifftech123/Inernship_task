@@ -23,7 +23,7 @@ const TaskOne =() => {
 
   return (
 		<>
-			<div className="Container">
+			<div className="ContainerMain">
 				{/*  ===profile section */}
 				<main className="Main">
 					<div className="profile">
@@ -112,7 +112,7 @@ const TaskOne =() => {
 						</button>
 					</div>
 					{/* SOCIAL  ICONS  SECTION */}
-					<div className="Container IconsHidden ">
+					<div className="ContainerIconsHidden ">
 						<div className="content">
 							<div className="icons">
 								<img src={slack} alt="slack" />
@@ -125,7 +125,7 @@ const TaskOne =() => {
 				</main>
 				<footer className="footer">
 					<div className="content_Footer">
-						<img className="logo" src={logo} alt="Github" />
+						<img className="logoOn" src={logo} alt="Github" />
 						<h1 className="FooterText">HNG Internship 9 Frontend Task </h1>
 
 						<img className="logo" src={lastImage} alt="Github" />
