@@ -39,7 +39,7 @@ const TaskOne =() => {
 							Clifftech_Dev
 						</h1>
 						<h1 className="slack" id="slack">
-							Opoku Isaiah Clifford
+							Clifftech_Dev
 						</h1>
 					</div>
 
